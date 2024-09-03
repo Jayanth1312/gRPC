@@ -40,7 +40,7 @@ Because gRPC uses HTTP/2, it's not possible to call a gRPC service from a web br
 # Status codes
 In gRPC, status codes represent the outcome of a remote procedure call (RPC). These codes are crucial for understanding the result of an operation, whether it succeeded, failed, or encountered an error. They are similar to HTTP status codes but are specific to gRPC and provide more granular control over error handling and response.
 __Visit this site know what are the different status codes__
-[text](https://grpc.io/docs/guides/status-codes/)
+[Status codes](https://grpc.io/docs/guides/status-codes/)
 
 # To create a microservice using gRPC follow these steps
 _create a vitual environment (optional)_:
