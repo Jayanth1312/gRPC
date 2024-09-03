@@ -1,8 +1,8 @@
 # gRPC
 __gRPC(google remote procedure call)__ is a framework which helps micro services to communicate with each other. gRPC is mainly works in the back-end side and ensures the connection between services. the gRPC can be implemented in many laguages mainly using Python, Java, Golang.
 
-Example for realtime application which uses microservices:
-# Uber
+# Example for realtime application which uses microservices:
+__UBER__
 __Overview:__ Uber relies heavily on microservices to manage its ride-hailing services, which includes everything from user authentication to real-time tracking of rides.
 
 __Microservices Examples:__
