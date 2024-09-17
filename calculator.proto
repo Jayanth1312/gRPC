@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package calculator;
+
+service AdvancedCalculator {
+    rpc Add (BinaryOpRequest) returns (CalculatorResponse) {}
+    rpc Divide (BinaryOpRequest) returns (CalculatorResponse) {}
+    rpc Factorial (UnaryOpRequest) returns (CalculatorResponse) {}
+    rpc Fibonacci (UnaryOpRequest) returns (CalculatorResponse) {}
+}
+
+message BinaryOpRequest {
+    double a = 1;
+    double b = 2;
+}
+
+message UnaryOpRequest {
+    int32 n = 1;
+}
+
+message CalculatorResponse {
+    double result = 1;
+}
